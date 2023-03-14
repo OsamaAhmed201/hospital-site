@@ -120,3 +120,12 @@ function edit() {
 
 }
 
+// ------------
+// slides
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+
+    
+    
+  });
