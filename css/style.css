@@ -316,11 +316,11 @@ height: 100vh;
     background-color: transparent;
     height: 35px;
     position: absolute;
-    top: 44%;
+    top: 45%;
     left: 0;
     padding: 10px;
     color: white;
-    border: 2px rgba(0, 0, 255, 0.732) solid !important;
+    border: 2px rgba(0, 0, 255, 0.508) solid !important;
     transition:0.3s;
     border-left: none !important;
 
@@ -877,6 +877,12 @@ b:hover
 .all-contant-doc
 {
     background-color: rgb(236, 225, 225);
+}
+.all-pt{
+    background-color: rgb(236, 225, 225);
+}
+.pat-img{
+    border-radius: 20px;
 }
 
 .con-doctor

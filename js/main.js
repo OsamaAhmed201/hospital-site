@@ -122,10 +122,9 @@ function edit() {
 
 // ------------
 // slides
-
-$(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
-
-    
-    
+$('.autoplay').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
   });
